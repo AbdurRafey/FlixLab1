@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import FlixLab1
+@testable import "FlixLab1"
 
 class FlixLab1Tests: XCTestCase {
     
