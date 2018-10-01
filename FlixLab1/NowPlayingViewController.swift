@@ -14,6 +14,8 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
     
+    
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     var movies: [[String: Any]] = []
     var refreshControl: UIRefreshControl!
     
@@ -30,8 +32,13 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
     }
     
     @objc func didPullToRefresh(_ refreshContol: UIRefreshControl) {
+        // Start the activity indicator
+        activityIndicator.startAnimating()
+         fetchMovies()
+        // Stop the activity indicator
+        // Hides automatically if "Hides When Stopped" is enabled
         
-        fetchMovies()
+        
     }
     
     func fetchMovies() {
@@ -51,6 +58,7 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
                 self.movies = movies
                 self.tableView.reloadData()
                 self.refreshControl.endRefreshing()
+                self.activityIndicator.stopAnimating()
             }
         }
         task.resume()
