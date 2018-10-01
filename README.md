@@ -1,10 +1,10 @@
 # FlixLab1
 
-# Project 1 - *Name of App Here*
+# Project 1 - *Flix - Part 1*
 
-**Name of your app** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+**FlixLab1** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **X** hours spent in total
+Time spent: **17** hours spent in total
 
 ## User Stories
 
@@ -26,12 +26,15 @@ The following **stretch** user stories are implemented:
 
 The following **additional** user stories are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality! (+1-3pts)
+- [x] List anything else that you can get done to improve the app functionality! (+1-3pts) :
+
+     1. Being able to see small pics from selected movie to show a "sneakpeak".
+     2. Being able to see current movie playing times near current location. 
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1.
-2.
+1. Looking for a way to partner the app with an app like Atom to see how much tickets are priced at nearby theaters
+2. Add a search bar to search for theaters that are playing a certain movie nowadays. 
 
 ## Video Walkthrough
 
@@ -44,6 +47,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+ - Main challenge was implementng cocoapods as there were terminal issues that had to be resolved.
 
 ## License
 
