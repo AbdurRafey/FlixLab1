@@ -71,11 +71,15 @@ Describe any challenges encountered while building the app.
     
     
     
+    
+    
+    
+    
     # Project 2 - *Flicks - Part 2*
 
 **Flicks** is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours spent in total
 
 ## User Stories
 
@@ -95,12 +99,15 @@ The following **stretch** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] List anything else that you can get done to improve the app functionality!
+
+     1. Adding nearby theater locations at which the movies are being played.
+     2. Adding ratings for the movies from sites ike IMDb and Rotten Tomatoes
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1.
-2.
+1.  Is there a way that we can automatically fit all poster images and descriptions without manually typing numbers.
+2.  We can try to extend our app using both views to allow it to list actors/actresses that are in the given movies. 
 
 ## Video Walkthrough
 
@@ -108,11 +115,16 @@ Here's a walkthrough of implemented user stories:
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with [LiceCap](http://www.cockos.com/licecap/):
+
+https://github.com/AbdurRafey/FlixLab1/blob/master/DemoForFlix%20-%20Part_2_Flix.gif
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+   1. Main Challenge encountered was setting up the frame sizes on the collection view so that it won't cut off a side of a   
+      poster.
 
 ## License
 
