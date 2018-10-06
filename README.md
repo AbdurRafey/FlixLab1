@@ -77,7 +77,7 @@ Describe any challenges encountered while building the app.
     
 
 
-**Project 2 - *Flicks - Part 2**
+ **PROJECT 2 - *FLICKS - PART 2**
 
 **Flicks** is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
